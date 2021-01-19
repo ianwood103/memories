@@ -16,7 +16,7 @@ app.use('/posts', postRoutes);
 
 //MongoDB Atlas Cloud setup
 const DB_CONNECTION = process.env.DB_CONNECTION;
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 mongoose.connect(DB_CONNECTION, 
     {useNewUrlParser: true, useUnifiedTopology: true})
